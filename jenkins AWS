@@ -6,3 +6,7 @@ sudo dnf upgrade
 sudo dnf install fontconfig java-17-openjdk
 sudo dnf install jenkins
 sudo systemctl daemon-reload
+sudo systemctl satart jenkins
+sudo systemctl status jenkins
+public ip :8080(port)
+psw location:/var/lib/jenkins/secrets/initialAd>
